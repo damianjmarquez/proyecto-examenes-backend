@@ -7,7 +7,7 @@ import java.util.*;
 
 public interface UsuarioService {
 
-	Usuario guardarUsuario(Usuario usuario, Set<UsuarioRol> usuarioRoles) throws Exception;
+	public Usuario guardarUsuario(Usuario usuario, Set<UsuarioRol> usuarioRoles) throws Exception;
 
 	
 	
